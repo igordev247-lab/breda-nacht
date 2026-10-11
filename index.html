@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="de"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000"><title>Das Torfschiff</title>
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header id="bar" class="hidden">
+  <span class="ttl dim" style="letter-spacing:.1em;font-size:.85rem;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none">TORFSCHIFF</span>
+  <span id="timer">60:00</span>
+  <span id="hintcount" title="Hinweise">✦ 0</span>
+  <button id="pauseBtn" class="ghost">Pause</button>
+</header>
+<main id="app"><p class="center dim" style="margin-top:30vh">…</p></main>
+<div id="pauseOverlay" class="overlay hidden"><div><h2>Pause</h2><p>Die Zeit steht still.</p><button id="resumeBtn">Weiter</button></div></div>
+<div id="tapOverlay" class="overlay hidden"><div><p>Tippen, um fortzufahren.</p><button id="tapBtn">Fortfahren</button></div></div>
+<audio id="voice" preload="auto" playsinline></audio>
+<script src="assets/data.js"></script><script src="assets/app.js"></script>
+</body></html>
